@@ -1,9 +1,15 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
 .navbar {
     background-color: rgba(90,83,119,1) !important;
     color: white !important;
     z-index: 100;
 }
 .splash-header {
+    margin-top: 56px;
     position: relative;
     height: 50vh;
     width: 100%;
@@ -78,16 +84,12 @@ footer .contact-icons .contact-icon {
 .body-section h2 {
     text-align: center;
     font-size: 2.5rem;
-    color: black;
     font-weight: 900;
 }
 .body-section h3 {
     text-align: center;
 }
-.body-section .row {
-    margin: 30px auto;
-    margin: 10vh auto;
-}
+
 
 .body-section img {
     display: block;
@@ -126,7 +128,6 @@ footer .contact-icons .contact-icon {
 }
 
 .body-section.about-engineering h3 {
-    color: black;
     font-weight: 600;
 }
 .body-section p {
@@ -135,4 +136,23 @@ footer .contact-icons .contact-icon {
 }
 .body-section.what-we-do p {
     text-align: left;
+}
+
+.background-purple {
+    background-color: rgba(90,83,119,1);
+    color: white !important;
+}
+.background-whitesmoke {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.body-section .row {
+    /* fallback */
+    margin: 30px auto;
+    
+    margin: 5vh auto;
+}
+.body-section {
+    padding: 5vh 0;
 }
