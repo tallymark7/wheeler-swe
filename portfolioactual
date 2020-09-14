@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="portfolio.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
     </head>
@@ -47,21 +47,20 @@
                 <h3>Promoting Dignity, Respect, and Justice For All</h3>
             </div>
         </div>
-<h1> SWE Portfolio </h1>
-<h2> Our Projects </h2>
+<h1 class="top word"> SWE Portfolio </h1>
 
 <p class="description"> Project Description 1 </p>
 <img class="projpic" src = "">
-<h6 class="caption"> Caption </h6>
+<p class="caption"> Caption </p>
 <p class="description"> Project Description 2 </p>
 <img class="projpic" src = "">
-<h6 class="caption"> Caption </h6>
+<p class="caption"> Caption </p>
 <p class="description"> Project Description 3 </p>
 <img class="projpic" src = "">
-<h6 class="caption"> Caption </h6>
+<p class="caption"> Caption </>
 
 
-<h3> Photo Gallery </h3>
+<h3 class="top"> Photo Gallery </h3>
 <!--picture slideshow-->
  <div class="container">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
