@@ -1,0 +1,173 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.navbar {
+    background-color: rgba(90,83,119,1) !important;
+    color: white !important;
+    z-index: 100;
+}
+.splash-header {
+    margin-top: 20px;
+    position: relative;
+    height: 25vh;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.splash-header img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+}
+.splash-header .gradient {
+    background-color: rgba(90,83,119,.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.splash-header .hero-text {
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, 0%);
+    width: 75%;
+    text-align: center;
+}
+.splash-header .hero-text h1 {
+    font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1600 - 300)));
+}
+.splash-header .hero-text h3 {
+    font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1600 - 300)));
+}
+@media only screen and (max-width: 767px) {
+    .splash-header .hero-text {
+        top: 20%;
+    }
+    .splash-header .hero-text h1 {
+        font-size: 2rem;
+    }
+    .splash-header .hero-text h3 {
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .splash-header .hero-text {
+        top: 15%;
+    }
+}
+footer {
+    background-color: rgba(90,83,119,1);
+    color: white;
+    padding: 5vh 0;
+}
+footer ul {
+    list-style: none;
+}
+footer a {
+    color: inherit;
+    text-decoration: underline;
+}
+footer a:hover, footer a:focus {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: underline;
+}
+footer .contact-icons {
+    text-align: center;
+}
+footer .contact-icons .contact-icon {
+    margin: 15px auto;
+}
+
+
+.body-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.body-section h3 {
+    text-align: center;
+}
+
+
+.body-section img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.body-section img.img-thumbnail {
+    margin: 5px auto;
+}
+@media only screen and (max-width: 320px) {
+    .body-section h2 {
+        font-size: 2.25rem;
+    }
+}
+
+.body-section.why-swe.why-swe-item {
+    
+    display: flex;
+    align-items:center;
+}
+
+.body-section.what-we-do .see-more-btn {
+    color: rgba(90,83,119,1);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    border: 2px solid rgba(90,83,119,1);
+    transition: all 0.2s ease-in;
+    margin: 0 auto;
+    display: block;
+}
+.body-section.what-we-do .see-more-btn:hover {
+    color: white;
+    background-color: rgba(90,83,119,1);
+}
+
+.body-section.about-engineering h3 {
+    font-weight: 600;
+}
+.body-section p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+.body-section.what-we-do p {
+    text-align: left;
+}
+
+.background-purple {
+    background-color: rgba(90,83,119,1);
+    color: white;
+}
+.background-whitesmoke {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.body-section .row {
+    /* fallback */
+    margin: 30px auto;
+    
+    margin: 5vh auto;
+}
+.body-section {
+    padding: 5vh 0;
+}
+
+.top{
+  text-align: center;
+}
+
+.description{
+  font-weight: bold;
+  background-color: rgba(90,83,119,.4);
+}
+
+.word{
+  margin-bottom: 10px;
+  padding-top: -50px;
+}
