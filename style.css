@@ -4,12 +4,38 @@ body, html {
     color: black;
 }
 .navbar {
-    background-color: rgba(90,83,119,1) !important;
+    background-color: #5A5377 !important;
     color: white !important;
     z-index: 100;
+    position: -webkit-sticky; 
+    position: sticky; 
+    top: 0;
+}
+.logo-container {
+    background-color: white; 
+    padding: 15px;
+    width: 100%;
+    position: relative;
+}
+.logo-container img {
+    width: 200px;
+    margin-right: 5px;
+}
+@media only screen and (max-width: 450px) {
+    .logo-container {
+        padding: 15px 0;
+    }
+    .logo-container .container {
+        display: block !important;
+        padding: 0 5px;
+    }
+    .logo-container img {
+        clear: left;
+        display: block;
+        margin: 5px auto;
+    }
 }
 .splash-header {
-    margin-top: 56px;
     position: relative;
     height: 50vh;
     width: 100%;
@@ -21,7 +47,7 @@ body, html {
     position: absolute;
 }
 .splash-header .gradient {
-    background-color: rgba(90,83,119,.4);
+    background-color:  rgba(90,83,119,.4);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -58,7 +84,7 @@ body, html {
     }
 }
 footer {
-    background-color: rgba(90,83,119,1);
+    background-color: #5A5377;
     color: white;
     padding: 5vh 0;
 }
@@ -78,6 +104,14 @@ footer .contact-icons {
 }
 footer .contact-icons .contact-icon {
     margin: 15px auto;
+}
+.footer-brand {
+    background-color: white;
+    color: black;
+}
+.footer-brand img {
+    margin-right: 15px;
+    width: 200px;
 }
 
 
@@ -113,18 +147,18 @@ footer .contact-icons .contact-icon {
 }
 
 .body-section.what-we-do .see-more-btn {
-    color: rgba(90,83,119,1);
+    color: #5A5377;
     font-size: 20px;
     font-weight: 600;
     background-color: white;
-    border: 2px solid rgba(90,83,119,1);
+    border: 2px solid #5A5377;
     transition: all 0.2s ease-in;
     margin: 0 auto;
     display: block;
 }
 .body-section.what-we-do .see-more-btn:hover {
     color: white;
-    background-color: rgba(90,83,119,1);
+    background-color: #5A5377;
 }
 
 .body-section.about-engineering h3 {
@@ -138,8 +172,9 @@ footer .contact-icons .contact-icon {
     text-align: left;
 }
 
+
 .background-purple {
-    background-color: rgba(90,83,119,1);
+    background-color:#5A5377;
     color: white;
 }
 .background-whitesmoke {
@@ -155,4 +190,26 @@ footer .contact-icons .contact-icon {
 }
 .body-section {
     padding: 5vh 0;
+}
+
+.top{
+  text-align: center;
+}
+
+.description{
+  font-weight: bold;
+  background-color: rgba(90,83,119,.4);
+}
+
+.word{
+  margin-bottom: 10px;
+  padding-top: -50px;
+}
+
+
+.purple-text {
+    color: purple;
+}
+.pink-text {
+    color: violet;
 }
