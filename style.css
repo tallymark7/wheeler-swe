@@ -192,24 +192,48 @@ footer .contact-icons .contact-icon {
     padding: 5vh 0;
 }
 
-.top{
-  text-align: center;
-}
-
-.description{
-  font-weight: bold;
-  background-color: rgba(90,83,119,.4);
-}
-
-.word{
-  margin-bottom: 10px;
-  padding-top: -50px;
-}
-
-
 .purple-text {
     color: #E63F52;
 }
 .pink-text {
     color: #57C8E7;
+}
+
+.feedback-btn {
+    background-color: #E63F52;
+    transition: border .3s;
+}
+.feedback-btn:hover, .feedback-btn.active {
+    border: 1px solid white;
+}
+
+.top {
+  text-align: center;
+}
+
+.description {
+    font-weight: bold;
+    background-color: rgba(90,83,119,.4);
+    margin-left: 20px;
+    margin-right: 500px;
+    font-size: 20px;
+    font-style: italic
+}
+
+.caption {
+  margin-left: 25px;
+  font-size: 15px;
+  margin-top:-5px;
+}
+
+.word {
+  margin-bottom: 10px;
+  padding-top: -50px;
+}
+#our-work.splash-header {
+    margin-top: 20px;
+    position: relative;
+    height: 25vh;
+    width: 100%;
+    margin-bottom: 20px;
 }
