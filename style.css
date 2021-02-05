@@ -141,7 +141,6 @@ footer .contact-icons .contact-icon {
 }
 
 .body-section.why-swe.why-swe-item {
-    
     display: flex;
     align-items:center;
 }
@@ -168,9 +167,7 @@ footer .contact-icons .contact-icon {
     font-size: 1.5rem;
     text-align: center;
 }
-.body-section.what-we-do p {
-    text-align: left;
-}
+
 
 
 .background-purple {
@@ -206,34 +203,25 @@ footer .contact-icons .contact-icon {
 .feedback-btn:hover, .feedback-btn.active {
     border: 1px solid white;
 }
-
-.top {
-  text-align: center;
+.project-gallery h3, .project-gallery p {
+    text-align: left;
 }
-
-.description {
-    font-weight: bold;
-    background-color: rgba(90,83,119,.4);
-    margin-left: 20px;
-    margin-right: 500px;
-    font-size: 20px;
-    font-style: italic
+.project-gallery .carousel-indicators li {
+    background-color: #E63F52;
+    /* display: flex;
+    align-items: center;
+     */
 }
-
-.caption {
-  margin-left: 25px;
-  font-size: 15px;
-  margin-top:-5px;
+.project-gallery .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%235a5377' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
-
-.word {
-  margin-bottom: 10px;
-  padding-top: -50px;
+   
+.project-gallery .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%235a5377' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
-#our-work.splash-header {
-    margin-top: 20px;
-    position: relative;
-    height: 25vh;
-    width: 100%;
-    margin-bottom: 20px;
+.project-gallery .carousel-indicators li.active {
+    background-color:#5A5377;
+}
+.project-gallery .creation-date {
+    font-size: 1.15rem;
 }
