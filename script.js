@@ -12,7 +12,10 @@ $.fn.carouselHeights = function() {
         });
         tallest = Math.max.apply(null, heights); //cache largest value
         items.each(function() {
-            $('.carousel-inner').css('min-height',tallest + 'px');
+            if ($(window).width() > 768) {
+                $('.carousel-inner').css('min-height',tallest + 'px');
+            }
+            
         });
     };
 

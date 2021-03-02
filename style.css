@@ -203,9 +203,7 @@ footer .contact-icons .contact-icon {
 .feedback-btn:hover, .feedback-btn.active {
     border: 1px solid white;
 }
-.project-gallery h3, .project-gallery p {
-    text-align: left;
-}
+
 .project-gallery .carousel-indicators li {
     background-color: #E63F52;
     /* display: flex;
@@ -219,9 +217,28 @@ footer .contact-icons .contact-icon {
 .project-gallery .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%235a5377' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
+.carousel-inner img {
+    max-height: 50vh;
+}
+.carousel-control-prev {
+    margin-left: -15px;
+}
+.carousel-control-next {
+    margin-right: -15px;
+}
 .project-gallery .carousel-indicators li.active {
     background-color:#5A5377;
 }
 .project-gallery .creation-date {
     font-size: 1.15rem;
+}
+.project-gallery .slide-text {
+    padding: 1.5rem 0;
+}
+.project-gallery .slide-text h5 {
+    text-align: center;
+}
+.project-gallery .slide-text p {
+    font-size: 1.1rem;
+    text-align: center;
 }
