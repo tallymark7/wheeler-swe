@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     color: black;
+    overflow-x: hidden;
 }
 .navbar {
     background-color: #5A5377 !important;
